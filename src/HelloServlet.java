@@ -11,6 +11,7 @@ public class HelloServlet extends HttpServlet{
          
         try {
             response.getWriter().println("<h1>Hello Servlet!</h1>");
+            response.getWriter().println("<h1>Hello test!</h1>");
             response.getWriter().println(new Date().toLocaleString());
         } catch (IOException e) {
             // TODO Auto-generated catch block
